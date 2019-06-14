@@ -19,7 +19,7 @@ export class DashboardLoggedComponent implements OnInit {
   constructor() {
     this.checklist = new Checklist();
     const firstTask = new Task();
-    firstTask.content = 'First Todo';
+    firstTask.content = 'First Todo (press enter to make a new task)';
     firstTask.result = false;
     this.checklist.tasks.push(firstTask);
   }

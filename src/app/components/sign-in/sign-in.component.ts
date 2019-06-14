@@ -17,6 +17,8 @@ export class SignInComponent implements OnInit {
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
+    }).catch((err) => {
+      window.alert(err);
     });
   }
 
