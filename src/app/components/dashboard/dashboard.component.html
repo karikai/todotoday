@@ -1,0 +1,7 @@
+<div *ngIf="isSigned && loaded">
+  <app-dashboard-logged></app-dashboard-logged>
+</div>
+
+<div *ngIf="!isSigned && loaded">
+  <app-dashboard-not-logged></app-dashboard-not-logged>
+</div>

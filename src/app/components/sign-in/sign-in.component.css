@@ -1,0 +1,25 @@
+img {
+    width: 35%;
+    display: block;
+    margin: 3% auto;
+}
+
+#center {
+    margin: 2% auto;
+    width: 40%;
+}
+
+.user-input {
+    margin: 2% 0;
+}
+
+.user-button {
+    display: block;
+    margin: auto;
+}
+
+p {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 500;
+}

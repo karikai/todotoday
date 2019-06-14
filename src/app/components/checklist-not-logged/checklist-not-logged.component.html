@@ -1,0 +1,21 @@
+<div>
+  
+  <a href=""><img src="../../../assets/todotoday-logo-whiteline.png" alt=""></a>
+
+  <div>
+    <input class="checklist-title" type="text" value="Checklist">
+
+  </div>
+  
+  <div *ngFor="let item of checklist.tasks">
+    <div class="todo-container">
+      <input class="todo-check" type="checkbox" checked="{{ item.result }}">
+      <span class="todo-line">
+        <input class="todo" type="text" value="{{ item.content }}" (keydown.enter)="newTask()">
+        <i></i>
+      </span>
+    </div>
+  </div>
+
+
+</div>
